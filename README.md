@@ -1,5 +1,5 @@
 # OI
-![image](https://github.com/user-attachments/assets/b2f2c3cd-d545-4f9d-aaed-9c72a13f2a30)
+- Estou estudando na [Alura](https://www.alura.com.br)
 
 ## OII
 
