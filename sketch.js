@@ -1,12 +1,15 @@
 function preload() {
-  img = loadImage('Captura de Tela (1).png')
+  objeto = loadModel('tinker.obj');
+  img = loadImage('Captura de tela 2024-08-13 211617.png')
 }
 
 function setup() {
-  createCanvas(1000, 1000);
+  createCanvas(400, 400, WEBGL);
 }
 
 function draw() {
-  background('blue');
+  background(220);
+  model(objeto);
+  orbitControl();
   image(img, 100,100)
 }
