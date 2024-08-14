@@ -1,12 +1,6 @@
-function preload() {
-  img = loadImage('Captura de tela 2024-08-13 211617.png')
-}
+const texto = document.getElementById('texto');
 
-function setup() {
-  createCanvas(400, 400);
-}
-
-function draw() {
-  background(220);
-  image(img, 100,100)
-}
+document.addEventListener('mousemove', (event) => {
+    texto.style.left = `${event.clientX}px`;
+    texto.style.top = `${event.clientY}px`;
+});
